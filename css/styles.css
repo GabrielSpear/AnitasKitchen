@@ -1,0 +1,33 @@
+body {
+background-image: url("../Img/backgrounds/foodsBg.jpg");
+}
+h1 {
+  text-align: center;
+  color: white;
+  padding top: 50px;
+  
+}
+
+#nav {
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+}
+
+.nav a {
+    text-decoration:underline;
+    text-underline-position: below;
+    font-size: 25px;
+    color: white;
+    display: block;
+    padding: 30px;
+
+}
+
+.nav a:hover{
+    color: magenta;
+}
