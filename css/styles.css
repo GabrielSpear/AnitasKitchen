@@ -5,7 +5,7 @@ h1 {
   text-align: center;
   color: white;
   padding top: 50px;
-  
+
 }
 
 #nav {
@@ -30,4 +30,10 @@ h1 {
 
 .nav a:hover{
     color: magenta;
+}
+
+.logo{
+	text-align: center;
+	margin-top: 5px;
+
 }
