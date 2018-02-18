@@ -4,18 +4,6 @@ background-image: url("../Img/backgrounds/foodsBg.jpg");
 h1 {
   text-align: center;
   color: white;
-  padding top: 50px;
-
-}
-
-#nav {
-    height: 100%;
-    width: 0;
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-
 }
 
 .nav a {
@@ -23,7 +11,6 @@ h1 {
     text-underline-position: below;
     font-size: 25px;
     color: white;
-    display: block;
     padding: 30px;
 
 }
@@ -34,6 +21,22 @@ h1 {
 
 .logo{
 	text-align: center;
-	margin-top: 5px;
+	margin-top: 2px;
 
+}
+.menu {
+	background-image: url("../img/backgrounds/foodsBg.jpg");
+
+}
+#fix{
+	font-size: 40px;
+  font-family:serif;
+	color: #4286f4;
+}
+
+.end{
+	background-color: #41f4ee;
+	text-align: center;
+  font-family: fantasy;
+	padding: 10px ;
 }
