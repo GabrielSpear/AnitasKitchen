@@ -1,48 +1,13 @@
-body {
-background-image: url("../Img/backgrounds/foodsBg.jpg");
-}
-h1 {
-  text-align: center;
-  color: white;
-}
 
-.nav a {
-    text-decoration:underline;
-    text-underline-position: below;
-    font-size: 25px;
-    color: white;
-    padding: 30px;
+#boy{
+	background-image: url("../img/backgrounds/landing.jpg");
+	height: 100vh;
+	width:100%;
+	background-repeat: no-repeat;
+	background-size:cover;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	background-attachment: fixed;
 
-}
-
-.nav a:hover{
-    color: magenta;
-}
-
-.logo{
-	text-align: center;
-	margin-top: 2px;
-
-}
-
-.button {
-
-
-}
-.menu {
-	background-image: url("../img/backgrounds/foodsBg.jpg");
-
-}
-#fix{
-	font-size: 40px;
-  font-family:serif;
-	color: #4286f4;
-}
-
-.end{
-  position:sticky;
-	background-color: #41f4ee;
-	text-align:center;
-  font-family: fantasy;
-	padding: 10px ;
 }
