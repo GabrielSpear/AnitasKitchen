@@ -24,6 +24,11 @@ h1 {
 	margin-top: 2px;
 
 }
+
+.button {
+
+
+}
 .menu {
 	background-image: url("../img/backgrounds/foodsBg.jpg");
 
@@ -35,8 +40,9 @@ h1 {
 }
 
 .end{
+  position:sticky;
 	background-color: #41f4ee;
-	text-align: center;
+	text-align:center;
   font-family: fantasy;
 	padding: 10px ;
 }
