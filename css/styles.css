@@ -11,3 +11,147 @@
 	background-attachment: fixed;
 
 }
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.logo{
+	text-align: center;
+	margin-top: 200px;
+	font-color: white;
+
+}
+.row{
+	margin-bottom:80px;
+
+}
+#provide
+{
+
+}
+.menu {
+	/*background-image: url("../assets/backgrounds/foodsBg.jpg");*/
+
+}
+#fix{
+  
+	font-size: 40px;
+	font-family:cursive;
+	font-color: ffff;
+	color: white;
+}
+
+.logo{
+	text-align: center;
+	margin-top: 200px;
+	font-color: white;
+
+}
+.row{
+	margin-bottom:80px;
+
+}
+#provide
+{
+
+}
+.menu {
+
+}
+#fix{
+	font-size: 40px;
+	font-family:cursive;
+	font-color: ffff;
+	color: white;
+}
+
+#party{
+	background-color: #F15A29;
+}
+
+#food{
+	cell-padding:50px;
+}
+
+.float: {
+	float: right;
+}
+
+.btn-danger{
+		background-color: white;
+		color:red;
+	}
+
+.lay{
+background-image: url("../img/backgrounds/foodsBg.jpg");
+  height: 80vh;
+	width:100%;
+	background-repeat: no-repeat;
+	background-size:cover;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	background-attachment: fixed;;
+}
+.container{
+	max-height: 400px;
+
+}
+
+.last{
+	background-image: url("../img/backgrounds/subscribe.jpg");
+  height: 50vh;
+	background-repeat: no-repeat;
+	background-size:cover;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	background-attachment: fixed;;
+}
+
+#paragraph{
+	text-align: center;
+	background-color: #e6e5e8;
+	border-radius: 5px;
+}
+.final{
+	background-image: url("../img/backgrounds/subscribe.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 50vh;
+	background-size: cover;
+}
