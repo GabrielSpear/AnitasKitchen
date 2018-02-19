@@ -67,7 +67,7 @@
 }
 .lay{
 background-image: url("../img/backgrounds/foodsBg.jpg");
-height: 80vh;
+  height: 80vh;
 	width:100%;
 	background-repeat: no-repeat;
 	background-size:cover;
@@ -83,7 +83,7 @@ height: 80vh;
 
 .last{
 	background-image: url("../img/backgrounds/subscribe.jpg");
-height: 50vh;
+  height: 50vh;
 	background-repeat: no-repeat;
 	background-size:cover;
 	display: flex;
