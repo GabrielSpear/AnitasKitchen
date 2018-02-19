@@ -1,83 +1,241 @@
 .sidenav {
-    height: 100%;
-    width: 0;
+    height: 70%;
     position: absolute;
     z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #de1111;
+    background-color: #42f480;
     overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+    transition: 1s;
+    padding-top: 50px;
     text-align:center;
 }
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
-    text-decoration: none;
+    text-decoration: overline;
     font-size: 25px;
-    color: #818181;
+    color: #4167f4;
     display: block;
-    transition: 0.3s;
-    padding: 23px;
+    padding: 20px;
 
 }
 
 .sidenav a:hover{
-    color: #f1f1f1;
+    color: #f441f1;
 }
 
 .sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
-    font-size: 36px;
+    right: 20px;
+    font-size: 40px;
     margin-left: 50px;
-}
-@media screen and (max-height: 450px) {
-  html {padding-top: 15px;}
-  html {font-size: 18px;}
 }
 
 #boy{
 	background-image: url("../img/backgrounds/landing.jpg");
-	/*background-color: blue;*/
-	/*position: fixed;;*/
 	height: 100vh;
 	width:100%;
 	background-repeat: no-repeat;
 	background-size:cover;
-	/*text-align: center;*/
 	display: flex;
 	justify-content:center;
 	align-items:center;
 	background-attachment: fixed;
-
-
 }
+
 .logo{
 	text-align: center;
 	margin-top: 200px;
-	font-color: white;
 
 }
+
 .row{
 	margin-bottom:80px;
 
 }
-#provide
-{
 
-}
 .menu {
-	/*background-image: url("../assets/backgrounds/foodsBg.jpg");*/
+	background-image: url("../assets/backgrounds/foodsBg.jpg");
 
 }
 #fix{
 
-	/*font-style: solid;*/
-	font-size: 40px;
+	font-style: solid;
 	font-family:cursive;
-	font-color: ffff;
-	color: white;
+  color: white;
+  font-size: 50px;
+}
+.lay{
+background-image: url("../img/backgrounds/foodsBg.jpg");
+height: 80vh;
+	width:100%;
+	background-repeat: no-repeat;
+	background-size:cover;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	background-attachment: fixed;;
+}
+.container{
+	max-height: 400px;
+
+}
+
+.last{
+	background-image: url("../img/backgrounds/subscribe.jpg");
+height: 50vh;
+	background-repeat: no-repeat;
+	background-size:cover;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	background-attachment: fixed;;
+
+}
+
+#paragraph{
+	text-align: center;
+	background-color: #e6e5e8;
+	border-radius: 5px;
+}
+
+.final{
+	background-image: url("../img/backgrounds/subscribe.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 50vh;
+	background-size: cover;
+}
+
+#input{
+	color: solid;
+	background-color: #ffffff;*/
+	width:400px;
+	height: 50px;
+	opacity: .4;*/
+	background-color: rgba(255, 255, 255, .4);
+	text-align: center;
+}
+
+.daily{
+	align-items:center;
+	text-align: center;
+	border-top: 80px;
+	justify-content:center;
+		margin-top: 200px;
+		position: relative;
+  padding: 200px ;
+  color: white;
+
+}
+
+.lastly{
+	background-color: #F15A29;
+	height: 40vh;
+	justify-content:center;
+	text-align: center;
+	padding: 200px ;
+
+}
+
+.icons{
+	padding:20px;
+}
+
+.menu{
+	background-color: white;
+}
+
+#breakfast{
+	background-image: url("../img/foodtop/breakfast.jpg");
+}
+
+.text {
+color: white;
+font-size: 40px;
+font-family: 'Handlee', Open Sans;
+padding: 16px 32px;
+white-space: nowrap;
+position: absolute;
+overflow: hidden;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}
+
+.overlay-mini {
+position: absolute;
+bottom: 0;
+right: 0;
+background:rgba(0,0,0,0.0);
+overflow: hidden;
+width: 100%;
+height: 100%;
+transition: .5s ease;
+
+
+}
+.bd:hover .overlay-mini {
+position: absolute;
+bottom: 0;
+right: 0;
+background:rgba(250,250,250,0.5);
+overflow: hidden;
+width: 100%;
+height: 100%;
+transition: .5s ease;
+}
+
+
+.bd:hover .text {
+color:#d64646;
+}
+
+.bd{
+padding: 0;
+}
+
+.bg-10{
+padding: 0;
+}
+
+.bg-00{
+background-color:#F15A29;
+}
+
+.happy{
+height: 119px;
+width:200px;
+}
+
+.customer{
+	width: 90%;
+	margin-top:5%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	margin-right: 5%
+	 border-color: transparent;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#line{
+	 border-left: thick solid #7e7c84;
+}
+
+.happy:hover .text {
+color:#d64646;
+}
+
+h2 {
+  color: black;
+}
+p {
+  color: black;
+}
+p2 {
+  color: black;
 }
